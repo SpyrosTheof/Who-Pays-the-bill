@@ -1,0 +1,63 @@
+<!doctype html>
+<html class="no-js" lang="">
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="x-ua-compatible" content="ie=edge">
+
+    <link href="https://fonts.googleapis.com/css?family=Oswald:400,700" rel="stylesheet">
+
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-alpha.6/css/bootstrap.min.css" integrity="sha384-rwoIResjU2yc3z8GV/NPeZWAv56rSmLldC3R/AZzGRnGxQQKnKkoFVhFQhNUwEyJ" crossorigin="anonymous">
+
+
+    <link rel="stylesheet" href="css/style.css">
+
+    <title>Project Two</title>
+
+</head>
+<body>
+<div class="container">
+    <div class="row">
+        <div class="applicant_container ">
+            <h1>Who pays the bill?</h1>
+            <div class="applicant_input">
+                <input type="text" id="applicant_value" placeholder="Enter Applicant">
+                <span id="add_applicant">Add</span>
+                <p id="msg_already_exists" class="hidden">Name already exists..</p>
+                <p id="msg_empty_name" class="hidden">Name cannot be empty..</p>
+            </div>
+            <div class="applicant_list">
+                <h5>Who 's participating</h5>
+               
+                <div class="applicant_list_wrapper">
+                    
+                </div>
+            </div>
+            <div  class="button_container">
+               <div id="show_results">Get the looser</div> 
+               <p id="msg_applicants_needed" class="hidden">More Applicants needed..</p>
+            </div>
+        </div>
+        <div class="results_container hidden">
+            <h1>And the Looser is</h1>
+            <div class="result">
+
+            </div>
+            <div class="results_action">
+                <div class="run_again">
+                Run it again
+                </div>
+                <div class="start_again">
+                    Start it again
+                    </div>
+            </div>
+
+            
+        </div>
+    </div>
+</div>
+
+</body>
+
+<script src="js/main.js"></script>
+
+</html>
